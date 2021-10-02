@@ -1,0 +1,27 @@
+cd myFiles
+echo Delete all files before create
+
+rm -rf *.txt
+
+echo Creating files
+touch txt1.txt
+touch txt2.txt
+touch txt3.txt
+touch txt4.txt
+touch txt5.txt
+touch txt6.txt
+touch txt7.txt
+ls
+
+echo Deleting files
+rm txt1.txt
+rm txt2.txt
+rm txt3.txt
+rm txt4.txt
+
+echo List of the files after delete
+ls
+
+echo "I am file 5">>txt5.txt
+echo "I am file 6">>txt6.txt
+echo "I am file 7">>txt7.txt
